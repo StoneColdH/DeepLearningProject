@@ -32,8 +32,8 @@ pip3 install dgl-cu113 dglgo -f https://data.dgl.ai/wheels/repo.html
 ## Usage
 
 1. In GTAN directory, run `unzip /data/data.zip` to unzip the datasets if you want to train model on these three datasets or pass this step;
-2. Run `python data_process.py` to generate adjacency lists and additional features on FFSD dataset used by GTAN;
-3. Run `python train.py` to run GTAN-GNN with default settings.
+
+2. Run `python train.py` to run TGTN-GNN with default settings.
 
 For other dataset and parameter settings, please refer to the arg parser in `train.py`. For example,you can run `python train.py --dataset yelp` to use YelpChi dataset. 
 
