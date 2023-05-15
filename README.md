@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GTAN
 implementation of paper:
 ****.
@@ -60,3 +61,7 @@ The repository is organized as follows:
 - `model.py`: GTAN-GNN model implementations;
 - `train.py`: training and testing models;
 - `utils.py`: utility functions for data i/o and model early stopper.
+=======
+# DeepLearningProject
+ECE7123
+>>>>>>> 0a5cdac0303f4eb2c5580f444f1dc7ad1bd217e6
