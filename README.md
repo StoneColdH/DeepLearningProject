@@ -8,7 +8,7 @@ implementation of paper:
 <p align="center">
     <br>
     <a href="https://github.com/StoneColdH/DeepLearningProject">
-        <img src="https://github.com/StoneColdH/DeepLearningProject/blob/main/figures/framework_gtan.png" width="900"/>
+        <img src="https://github.com/StoneColdH/DeepLearningProject/blob/main/figures/framework_tgtn.png" width="900"/>
     </a>
     <br>
 <p>
@@ -37,7 +37,7 @@ pip3 install dgl-cu113 dglgo -f https://data.dgl.ai/wheels/repo.html
 
 For other dataset and parameter settings, please refer to the arg parser in `train.py`. For example,you can run `python train.py --dataset yelp` to use YelpChi dataset. 
 
-**Please note that our FFSD dataset has millions of transactions, such that we put a sampled dataset (10k transactions) in this repository.**
+
 
 ## Repo Structure
 The repository is organized as follows:
