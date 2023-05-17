@@ -7,7 +7,7 @@ implementation of paper: ** Fraud Detection Based On Graph Neural Network**
 <p align="center">
     <br>
     <a href="https://github.com/StoneColdH/DeepLearningProject">
-        <img src="https://github.com/StoneColdH/DeepLearningProject/blob/main/figures/framework_tgtn.pdf" width="900"/>
+        <img src="https://github.com/StoneColdH/DeepLearningProject/blob/main/figures/framework_tgan.pdf" width="900"/>
     </a>
     <br>
 <p>
