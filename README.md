@@ -1,6 +1,6 @@
 
 # TGAN
-implementation of paper: ** Fraud Detection Based On Graph Neural Network**
+implementation of paper: **Fraud Detection Based On Graph Neural Network**
 
 ## Overview
 
