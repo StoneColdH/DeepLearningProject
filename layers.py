@@ -7,7 +7,7 @@ from dgl.base import DGLError
 from dgl.nn.functional import edge_softmax
 import numpy as np
 """
-	TGTN-GNN Layers
+	TGAN-GNN Layers
 
 """
 

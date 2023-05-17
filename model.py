@@ -2,7 +2,7 @@
 import torch.nn as nn
 from layers import *
 """
-	TGTN-GNN Layers
+	TGAN-GNN Layers
 
 """
 

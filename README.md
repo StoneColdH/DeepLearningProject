@@ -1,14 +1,13 @@
 <<<<<<< HEAD
-# GTAN
-implementation of paper:
-****.
+# TGAN
+implementation of paper: ** Fraud Detection Based On Graph Neural Network**
 
 ## Overview
 
 <p align="center">
     <br>
     <a href="https://github.com/StoneColdH/DeepLearningProject">
-        <img src="https://github.com/StoneColdH/DeepLearningProject/blob/main/figures/framework_tgtn.png" width="900"/>
+        <img src="https://github.com/StoneColdH/DeepLearningProject/blob/main/figures/framework_tgtn.pdf" width="900"/>
     </a>
     <br>
 <p>
@@ -31,7 +30,7 @@ pip3 install dgl-cu113 dglgo -f https://data.dgl.ai/wheels/repo.html
 
 ## Usage
 
-1. In GTAN directory, run `unzip /data/data.zip` to unzip the datasets if you want to train model on these three datasets or pass this step;
+1. In TGAN directory, run `unzip /data/data.zip` to unzip the datasets if you want to train model on these three datasets or pass this step;
 
 2. Run `python train.py` to run TGTN-GNN with default settings.
 

@@ -42,11 +42,3 @@ sparse_to_adjlist(net_usu, prefix + 'amz_usu_adjlists.pickle')
 sparse_to_adjlist(net_uvu, prefix + 'amz_uvu_adjlists.pickle')
 sparse_to_adjlist(amz_homo, prefix + 'amz_homo_adjlists.pickle')
 
-# %%
-"""
-    For FFSD dataset
-"""
-data=pd.read_csv(prefix+"STRAD.csv")
-data=featmap_gen(data.reset_index(drop=True))
-data.replace(np.nan,0,inplace=True)
-data.to_csv(prefix+"STRADneofull.csv",index=None)

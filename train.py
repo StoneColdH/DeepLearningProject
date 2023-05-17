@@ -13,7 +13,7 @@ import argparse
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 """
-	Training TGTN-GNN 
+	Training TGAN-GNN 
     
 """
 
