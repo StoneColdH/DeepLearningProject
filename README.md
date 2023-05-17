@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # TGAN
 implementation of paper: ** Fraud Detection Based On Graph Neural Network**
 
@@ -32,7 +32,7 @@ pip3 install dgl-cu113 dglgo -f https://data.dgl.ai/wheels/repo.html
 
 1. In TGAN directory, run `unzip /data/data.zip` to unzip the datasets if you want to train model on these three datasets or pass this step;
 
-2. Run `python train.py` to run TGTN-GNN with default settings.
+2. Run `python train.py` to run TGAN-GNN with default settings.
 
 For other dataset and parameter settings, please refer to the arg parser in `train.py`. For example,you can run `python train.py --dataset yelp` to use YelpChi dataset. 
 
@@ -42,8 +42,8 @@ For other dataset and parameter settings, please refer to the arg parser in `tra
 The repository is organized as follows:
 - `data/`: dataset files;
 - `data_process.py`: handle dataset and do some feature engineering;
-- `layers.py`: GTAN-GNN layers implementations;
-- `model.py`: GTAN-GNN model implementations;
+- `layers.py`: TGAN-GNN layers implementations;
+- `model.py`: TGAN-GNN model implementations;
 - `train.py`: training and testing models;
 - `utils.py`: utility functions for data i/o and model early stopper.
 
